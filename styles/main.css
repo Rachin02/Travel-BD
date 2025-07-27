@@ -65,6 +65,10 @@ body {
   cursor: pointer;
   transition: background 0.2s ease;
 }
+.login-btn a{
+  color:white;
+  text-decoration: none;
+}
 
 .login-btn:hover {
   background-color: #2bcc46;
@@ -417,10 +421,9 @@ body {
 }
 
 }
-
 /* footer section */
 .footer {
-  padding: 60px 40px;
+  padding: 20px 40px;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -430,7 +433,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .footer-intro h3,
@@ -492,7 +495,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 20px;
   padding-bottom: 30px;
 }
 
