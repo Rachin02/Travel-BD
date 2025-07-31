@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% load static %} {% block body %}
+
+<!-- search section -->
+<section class="py-12 px-5 w-4/5 mx-auto">
+  <h1
+    class="text-6xl md:text-7xl font-extrabold leading-tight mb-8 text-center"
+  >
+    Find Your Next <br /><span class="block">Vacation Spot</span>
+  </h1>
+  <div
+    class="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-4"
+  >
+    <label for="city" class="text-xl md:text-3xl font-medium text-center"
+      >Enter any famous city you want to visit:</label
+    >
+    <input
+      type="text"
+      id="city"
+      placeholder="e.g. Chattagram"
+      class="py-3 px-4 text-base border border-black rounded-2xl w-full md:w-64 outline-none"
+    />
+    <button
+      class="py-3 px-5 text-base border-none bg-black text-white rounded-3xl cursor-pointer hover:bg-gray-800 transition duration-300 w-full md:w-auto"
+    >
+      SEARCH
+    </button>
+  </div>
+</section>
+
+<style>
+  @media (max-width: 900px) {
+    .text-6xl {
+      font-size: 2.5rem !important;
+    }
+    .text-xl {
+      font-size: 1.3rem !important;
+    }
+  }
+</style>
+
+{% endblock %}
